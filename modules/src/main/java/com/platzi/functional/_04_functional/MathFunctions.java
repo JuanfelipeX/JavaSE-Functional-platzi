@@ -24,7 +24,7 @@ public class MathFunctions {
         Predicate<Student> isApproved = student -> student.getCalificacion() >= 6.0;
 
         Student sinuhe = new Student(5.9);
-        System.out.println(isApproved.test(sinuhe));
+        System.out.println(isApproved.test(sinuhe)); //false
     }
 
     static class Student {
